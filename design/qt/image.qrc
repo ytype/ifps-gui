@@ -1,5 +1,11 @@
 <RCC>
   <qresource prefix="background">
+    <file>background.png</file>
     <file>custom – 1.png</file>
+  </qresource>
+  <qresource prefix="icon">
+    <file>init.png</file>
+    <file>browse.png</file>
+    <file>iconfinder_document-upload_4918890.png</file>
   </qresource>
 </RCC>

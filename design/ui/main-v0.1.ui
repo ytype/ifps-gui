@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>820</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>820</width>
+    <height>550</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>820</width>
+    <height>550</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="background_image">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>820</width>
+      <height>550</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../qt/image.qrc">:/background/background.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="file_icon">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>37</y>
+      <width>119</width>
+      <height>119</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../qt/image.qrc">:/icon/iconfinder_document-upload_4918890.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="browse_upload_btn">
+    <property name="geometry">
+     <rect>
+      <x>428</x>
+      <y>156</y>
+      <width>222</width>
+      <height>59</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../qt/image.qrc">:/icon/browse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="pannel_btn">
+    <property name="geometry">
+     <rect>
+      <x>37</x>
+      <y>94</y>
+      <width>189</width>
+      <height>47</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../qt/image.qrc">:/icon/init.png</pixmap>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../qt/image.qrc"/>
+ </resources>
+ <connections/>
+</ui>
