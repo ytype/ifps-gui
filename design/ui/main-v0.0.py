@@ -19,7 +19,6 @@ class Ui_MainWindow(object):
         self.label = QtWidgets.QLabel(self.centralwidget)
         self.label.setGeometry(QtCore.QRect(0, 0, 820, 550))
         self.label.setText("")
-        #self.label.setPixmap(QtGui.QPixmap(":/background/custom – 1.png"))
         self.label.setPixmap(QtGui.QPixmap("design/png/background.png"))
         self.label.setObjectName("label")
         self.browse_file_btn = QtWidgets.QLabel(self.centralwidget)
@@ -87,16 +86,10 @@ class Ui_MainWindow(object):
         self.file_label.setText(fileName[0])
         self.result_label.setText("file selected")
 
-#import image_rc
-
 
 if __name__ == "__main__":
     ipfs = ipfs()
     ipfs.isWindows64()
-    #ipfs.init()
-    #ipfs.daemon()
-    print('output:',ipfs.add('C:/Users/root/Documents/GitHub/ifps-gui/lib/ipfs.py'))
-
     import sys
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()

@@ -134,6 +134,7 @@ class Ui_MainWindow(object):
                 self.hash = result
                 self.file_label.setText(result)
                 self.file_title_label.setText(self.file_name.split('/')[-1])
+                self.result_label.setText('file uploaded')
             else:
                 self.result_label.setText('ipfs add error')
 
